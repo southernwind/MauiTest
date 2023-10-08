@@ -1,7 +1,7 @@
-﻿using System.Reactive.Disposables;
+using System.Reactive.Disposables;
 
 namespace MauiTest.ViewModels;
-internal class ViewModelBase :BindableObject,IDisposable
+public class ViewModelBase :BindableObject,IDisposable
 {
 	private CompositeDisposable? _compositeDisposable;
 

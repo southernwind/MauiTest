@@ -1,10 +1,11 @@
-﻿namespace MauiTest
+namespace MauiTest
 {
     public partial class AppShell : Shell
     {
         public AppShell()
         {
-            InitializeComponent();
-        }
+            this.InitializeComponent();
+			this.GoToAsync("//MainPage");
+		}
     }
 }
